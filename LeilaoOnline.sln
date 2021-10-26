@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B41B73C-D097-4DF3-8D7D-01138DB8B060}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testes", "testes", "{D77A09AE-8B24-4F8F-BCBA-A914AA0719F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeilaoOnline.Core", "LeilaoOnline.Core\LeilaoOnline.Core.csproj", "{D46CA445-8784-4FF3-9D2B-BE85B3A4E408}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D46CA445-8784-4FF3-9D2B-BE85B3A4E408} = {0B41B73C-D097-4DF3-8D7D-01138DB8B060}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D46CA445-8784-4FF3-9D2B-BE85B3A4E408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46CA445-8784-4FF3-9D2B-BE85B3A4E408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46CA445-8784-4FF3-9D2B-BE85B3A4E408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46CA445-8784-4FF3-9D2B-BE85B3A4E408}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
