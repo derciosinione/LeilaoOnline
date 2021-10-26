@@ -46,6 +46,8 @@ namespace LeilaoOnline.UnitTest
             var valorObtido = leilao.Ganhador.Valor;
             
             Assert.Equal(valorEsperado, valorObtido);
+            Assert.NotEmpty(leilao.Ganhador.Cliente.Nome);
+            Assert.Equal("Jorge", leilao.Ganhador.Cliente.Nome);
         }
         
     }
