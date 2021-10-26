@@ -3,6 +3,7 @@ using System.Linq;
 
 namespace LeilaoOnline.Core
 {
+    
     public class Leilao
     {
         private IList<Lance> _lances;
